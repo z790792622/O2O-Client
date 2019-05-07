@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+/* 头部导航开始 */
+.head {
+    height: 30px;
+    width: 100%;
+    /* background-color: gray; */
+    /* float: left;  */
+    border-bottom: 1px solid rgb(182, 176, 176);
+  }
+  .headtop {
+    /* width: 50px; */
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 230px;
+    display: inline-block;
+  }
+  .headimg > img {
+    width: 10px;
+    height: 10px;
+  }
+  .headimg {
+    display: inline-block;
+    line-height: 30px;
+  }
+  .headtext {
+    color: gray;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 30px;
+  }
+  .num {
+    font-size: 12px;
+    display: inline-block;
+    line-height: 30px;
+    color: red;
+  }
+  .lunbo1 {
+    display: inline-block;
+    /* float: left; */
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .lunbo1 {
+    width: 150px;
+    height: 20px;
+    overflow: hidden;
+    color: blue;
+    /* float: right; */
+  }
+  .phone > img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    line-height: 30px;
+  }
+  .phone {
+    display: inline-block;
+    font-size: 13px;
+    color: gray;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 150px;
+  }
+  .headright {
+    font-size: 13px;
+    display: inline-block;
+  }
+  .headright > a {
+    text-decoration: none;
+    color: gray;
+  }
+  /* 头部导航结束 */
+  /* 头部导航固定栏开始 */
+  .Secondhead {
+    height: 70px;
+    /* background-color: gray; */
+    clear: both;
+  }
+  .Secondhead > div {
+    display: inline-block;
+    /* height: 70px; */
+    /* border: 1px solid red; */
+  }
+  .Secondhead img {
+    display: block;
+  }
+  .Secondhead > div > a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+  }
+  .Secondhead-child1 {
+    margin-left: 200px;
+  }
+  .Secondhead-child1 > img {
+    /* height: 70px; */
+    width: 140px;
+  }
+  .Secondhead-child2 > img {
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+  }
+  .Secondhead-child3,
+  .Secondhead-child5,
+  .Secondhead-child7,
+  .Secondhead-child9 {
+    margin-left: 70px;
+  }
+  /* 头部导航固定栏结束 */
+  
