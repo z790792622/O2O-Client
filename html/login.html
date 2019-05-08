@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录中心</title>
+    <link rel="icon" href="../img/login-favicon.ico" sizes="32x32">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <!-- 登录页面主体 -->
+    <nav>
+        <!--登录页面logo部分  -->
+        <a class="login-logo-a" href="#"><img class="login-logo" src="../img/logo-ketang.png" ></a>
+        <!-- 登录框部分 -->
+        <div class="login-wrap">
+            <form action="" class="form-horizontal">
+            <p class="into-title">账号登录</p>
+             <i class="user-icon"></i>
+                <input type="text" class="phone-num" name="username" placeholder="请输入手机号" value="">
+
+                <input type="password"  class="passwd" name="passwd" value="" placeholder="请输入密码">
+                <i class="pass-icon"></i>
+                <input type="checkbox" name="" id="forRemember" value="" class="remember" checked="checked">
+                <label for="forRemember" class="safe" >公用场所请勿勾选</label>
+                <div>
+                    <a href="#" class=" forget">忘记密码？</a>
+                </div>
+                <button type="button" class="login">立即登录</button>
+                <a href="./register.html" class="login-reg">立即注册</a>
+            </form>
+
+        </div>
+    </nav>
+
+    <!-- 登录页面底部部分 -->
+    <footer>
+        <div class="link-wrap">
+            <a class="link-ietm"  href="#">公司介绍</a>
+            <a class="link-ietm"  href="#">企业文化</a>
+            <a class="link-ietm"  href="#">公司动态</a>
+            <a class="link-ietm"  href="#">诚聘英才</a>
+            <a class="link-ietm"  href="#">开发文档</a>
+            <a class="link-ietm"  href="#">接口调试</a>
+            <a class="link-ietm"  href="#">帮助中心</a>
+        </div>
+
+        <p class="footer-title">厦门科汛软件有限公司版权所有©2006-2019</p>
+    </footer>
+    <script src =“https://unpkg.com/axios/dist/axios.min.js ” ></script >
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>
