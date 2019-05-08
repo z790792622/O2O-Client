@@ -1,0 +1,248 @@
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul,
+nav,
+label{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f6f6f6 url(../img/login-bottom.png) no-repeat;
+    background-position: bottom right;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    width: 1180px;
+    height: 645px;
+    margin: 34px auto;
+    position: relative;
+}
+nav .login-logo img {
+    width: 165px;
+    height: 54px;
+    position: relative;
+    top: 0px;
+    left: 500px;
+}
+nav .login-wrap {
+    width: 490px;
+    height: 557px;
+    margin: 20px auto;
+    border: 1px solid snow;
+    background-color: #fff;
+    border-radius: 20px;
+}
+nav .login-wrap .info-title {
+    height: 60px;
+    text-align: center;
+    background: #fff;
+    line-height: 60px;
+    font-size: 18px;
+    color: #E84C3D;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+/*图片背景公共样式*/
+nav .login-info i {
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+/*input的placeholder字体样式*/
+::-webkit-input-placeholder {
+    color: #d6d6d6;
+    font-size: 14px;
+    line-height: 50px;
+}
+/*input圆角公共样式*/
+nav .same {
+    border-radius: 3%;
+}
+nav .login-info .wxname-icon {
+    background: url(../img/wxname.png)no-repeat 6px center;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    z-index: 10;
+}
+
+nav .login-info .wxname {
+    height: 35px;
+    width: calc(100% - 130px);
+    width: -moz-calc(100% - 130px);
+    width: -webkit-calc(100% - 130px);
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: #d6d6d6;
+    border: 1px solid #d6d6d6;
+    position: relative;
+    top: 20px;
+}
+nav .login-wrap .user-icon {
+    background: url(../img/username.png)no-repeat 6px center;
+    position: relative;
+    top: 74px;
+    left: 34px;
+    z-index: 10;
+}
+nav .login-info .realm {
+    height: 35px;
+    width: calc(100% - 235px);
+    width: -moz-calc(100% - 235px);
+    width: -webkit-calc(100% - 235px);
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: #d6d6d6;
+    border: 1px solid #d6d6d6;
+    position: relative;
+    top: 40px;
+    left: 34px;
+}
+nav .login-info .realm-name {
+    font-size: 18px;
+    color: #555;
+    float: right;
+    margin-top: 10px;
+    width: 37%;
+    text-align: right;
+    position: relative;
+    right: 40px;
+    top: 35px;
+}
+nav .login-wrap .phonenum-icon {
+     background: url(../img/phonenumber.png)no-repeat 6px center;
+     position: relative;
+     top: 92px;
+     left: 69px;
+     z-index: 10;
+ }
+nav .login-info .phonenum {
+    height: 35px;
+    width: calc(100% - 130px);
+    width: -moz-calc(100% - 130px);
+    width: -webkit-calc(100% - 130px);
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: #d6d6d6;
+    position: relative;
+    left: 34px;
+    top: 58px;
+}
+nav .login-wrap .passwd-icon {
+    background: url(../img/passwd.png)no-repeat 6px center;
+    position: relative;
+    top: 108px;
+    left: 69px;
+    z-index: 10;
+}
+nav .login-info .passwd {
+    height: 35px;
+    width: calc(100% - 130px);
+    width: -moz-calc(100% - 130px);
+    width: -webkit-calc(100% - 130px);
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: #d6d6d6;
+    position: relative;
+    left: 68px;
+    top: 74px;
+}
+nav .login-info .remember {
+    position: relative;
+    top: 151px;
+    left: -256px;
+}
+nav .login-info .safe {
+    position: relative;
+    top: 150px;
+    left: -260px;
+    height: 34px;
+    line-height: 34px;
+    color: #666;
+    font-size: 14px;
+    width: 95%;
+}
+nav .login-info .server {
+    position: relative;
+    top: 114px;
+    left: 216px;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    color: #666;
+    font-size: 14px;
+    width: 95%;
+}
+nav .login-info .now-buitton {
+    display: block;
+    width: 74%;
+    height: 45px;
+    line-height: 43px;
+    background: #E84C3D;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #E84C3D;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+    bottom: -160px;
+    left: 66px;
+}
+nav .login-info .return-login {
+    display: block;
+    width: 74%;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    color:  #E84C3D;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #E84C3D;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+    bottom: -190px;
+    left: 66px;
+}
+footer {
+    width: 300px;
+    height: 10px;
+    margin: 0 auto;
+
+}
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    top: -40px;
+}

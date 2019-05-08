@@ -1,0 +1,364 @@
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+i {
+    font-style: normal;
+}
+.lf {
+    float: left;
+}
+.rf {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+header {
+    width: 1520px;
+    height: 100px;
+}
+header .logo {
+    width: 259px;
+    height: 100px;
+    margin-left: 220px;
+}
+header .logo-img {
+    width: 211px;
+    height: 42px;
+    padding-top: 30px;
+}
+header .active-div {
+    width: 886px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    top: -100px;
+    right: 20px;
+}
+header .active .active-live {
+    padding: 0px 20px;
+}
+
+header .active-live a {
+    color: #333333;
+    font-size: 16px;
+    display: inline-block;
+}
+header .active-live  a:hover{
+     border-top: 5px solid #1196d8;
+     color: #2e79f1;
+ }
+nav {
+    width: 1520px;
+    height: 640px;
+    /*background-color: burlywood;*/
+    background: url(../img/my-1.png) no-repeat center;
+    position: relative;
+}
+nav .about-title1 {
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 6px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+
+}
+nav .animation{
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+}
+nav .about-title1 .about-span {
+    position: relative;
+    top: -60px;
+    left: 360px;
+}
+nav .about-info {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    left: 40px;
+}
+/*公司简介*/
+.company-profile {
+    width: 1180px;
+    height: 514px;
+    margin: 70px auto;
+}
+.company-profile .company-title {
+    font-size: 38px;
+    color: #373737;
+    position: relative;
+    letter-spacing: 6px;
+    margin-bottom: 60px;
+    height: 65px;
+}
+.company-profile .company-title:after {
+    content: '';
+    margin-top: 20px;
+    width: 130px;
+    background: #373737;
+    height: 3px;
+    display: block;
+}
+.company-profile p {
+    text-indent: 2em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.2;
+}
+/*管理团队*/
+.management-team {
+    width: 1180px;
+    height: 640px;
+    margin: 0px auto;
+}
+.management-team .management-title {
+    font-size: 38px;
+    color: #373737;
+    position: relative;
+    letter-spacing: 6px;
+    margin-bottom: 60px;
+    height: 65px;
+}
+/*上部分盒子*/
+.management-team .management-title:after {
+    content: '';
+    margin-top: 20px;
+    width: 130px;
+    background: #373737;
+    height: 3px;
+    display: block;
+}
+.management-team .management-ul1 {
+    width: 1180px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.management-team .management-li1 {
+    width: 360px;
+    height: 250px;
+}
+.management-team .management-li1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    display: inline-block;
+}
+.management-team .management-li1 .massage-intro {
+    position: relative;
+    top: -118px;
+    right: -124px;
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.management-team .management-li1 .about-name {
+    font-size: 18px;
+    color: #373737;
+}
+.management-team .management-li1 .about-job{
+    font-size: 16px;
+    color: #666;
+}
+.management-team .management-li1 .about-intro{
+    color: #666;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/*下部分盒子*/
+.management-team .management-ul2 {
+    width: 1180px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.management-team .management-li2 {
+    width: 360px;
+    height: 250px;
+}
+.management-team .management-li2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    display: inline-block;
+}
+.management-team .management-li2 .massage-intro2 {
+    position: relative;
+    top: -118px;
+    right: -124px;
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.management-team .management-li2 .about-name2 {
+    font-size: 18px;
+    color: #373737;
+}
+.management-team .management-li2 .about-job2 {
+    font-size: 16px;
+    color: #666;
+}
+.management-team .management-li2 .about-intro2 {
+    color: #666;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*管理团队介绍结束*/
+/*视频介绍开始*/
+.video-introduction {
+    width: 1180px;
+    height: 700px;
+    margin: 30px  auto;
+}
+.video-introduction .video-title {
+    font-size: 38px;
+    color: #373737;
+    position: relative;
+    letter-spacing: 6px;
+    margin-bottom: 60px;
+    height: 65px;
+}
+.video-introduction .video-title:after {
+    content: '';
+    margin-top: 20px;
+    width: 130px;
+    background: #373737;
+    height: 3px;
+    display: block;
+}
+.video-introduction .movie-video {
+    position: relative;
+    left: 0;
+    width: 1180px;
+    height: 600px;
+}
+/*视频介绍结束*/
+
+/*联系我们开始*/
+.contact-us {
+    width: 1180px;
+    height: 428px;
+    margin: 300px  auto;
+}
+.contact-us .contact-title {
+    font-size: 38px;
+    color: #373737;
+    position: relative;
+    letter-spacing: 6px;
+    margin-bottom: 60px;
+    height: 65px;
+}
+.contact-us .contact-title:after {
+    content: '';
+    margin-top: 20px;
+    width: 130px;
+    background: #373737;
+    height: 3px;
+    display: block;
+}
+.contact-us .contactus-intro {
+    width: 1180px;
+    height: 276px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-us .contactus-intro .contact-lf {
+    width: 492px;
+    height: 276px;
+}
+.contact-us .contact-lf img {
+    width: 492px;
+    height: 276px;
+}
+.contact-us .contactus-intro .contact-rt {
+    width: 492px;
+    height: 276px;
+}
+.contact-us .contentbox i{
+    color: #333333;
+    font-size: 13px;
+}.contact-us .contentbox a {
+     color: #333333;
+     font-size: 13px
+ }
+/*联系我们结束*/
+/*页面底部开始*/
+footer {
+    width: 1520px;
+    height: 502px;
+    background: url("../img/about-us-footer.png") no-repeat;
+    text-align: center;
+    margin-top: -220px;
+}
+footer .footer-ul {
+    display: inline-block;
+    margin-top: 300px;
+    color: #ffffff;
+    font-size: 16px;
+}
+footer .cooperation {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+footer .cooperation a {
+    color: #ffffff;
+    font-size: 13px;
+}
+/*页面底部结束*/
