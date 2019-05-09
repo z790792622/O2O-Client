@@ -47,14 +47,8 @@
   font-size: 12px;
   line-height: 30px;
   width: 150px;
-  height: 20px;
-}
-.lunbo1 {
-  width: 150px;
-  height: 20px;
-  /* overflow: hidden; */
   color: blue;
-  /* float: right; */
+  height: 20px;
 }
 .phone > img {
   width: 15px;

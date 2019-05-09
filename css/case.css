@@ -50,24 +50,37 @@ i {
 }
 /*导航栏头部开始*/
 header {
-    height: 41px;
+    height: 30px;
     position: relative;
     border-bottom: 1px solid #d6d6d6;
 }
 header .guide-content {
     width: 1180px;
-    height: 41px;
+    height: 30px;
     margin: 0px auto;
-    line-height: 40px;
+    line-height: 30px;
     color: #666666;
     font-size: 14px;
-
 }
+.lunbo1 {
+    display: inline-block;
+    /* float: left; */
+    font-size: 12px;
+    line-height: 30px;
+    width: 150px;
+    height: 20px;
+    color: blue;   
+    position: relative; 
+    top: -30px;
+    left: 530px;
+  }
+
 header span {
     display: inline-block;
 }
 header .lf-content{
     width: 682px;
+    height: 40px;
     margin: 0px 10px;
 }
 header .lf-content .drop-list {
